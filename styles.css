@@ -1,18 +1,48 @@
-body{
-    margin:0;
-}
-a{
-    color: aliceblue;
-    text-decoration: none;
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-.navigation-wrapper{
-    height: 190px;
-    background-color:#091353 ;
-    color: aliceblue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 100px;
-    
+.navigation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 100px;
+  height: 190px;
+  background-color: #11122b;
+  color: #cbcbcb;
+}
+.navigation-wrapper > .left-col {
+  display: flex;
+  align-items: center;
+}
+.navigation-wrapper > .left-col > .icon {
+  margin-right: 15px;
+}
+.navigation-wrapper > .left-col > .icon i {
+  font-size: 2em;
+}
+.navigation-wrapper > .left-col > .contact-hours-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.navigation-wrapper > .contact-hours-wrapper > .hour {
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.link-wrapper > .nav-link a {
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.navigation-wrapper > .right-col > .address-wrapper {
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.navigation-wrapper > .center-col > .banner-image img {
+  width: 216px;
+  height: 100%;
 }
