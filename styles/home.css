@@ -1,0 +1,151 @@
+.hero-section {
+    background-image: url(../images/backgrounds/fries-hero-bg.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab", serif;
+}
+
+.hero-section>.top-heading {
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+}
+
+.hero-section>.bottom-heading {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+
+.features-section {
+    background: url(../images/backgrounds/fries-multiply-bg.jpg);
+    height: 400px;
+    background-color: #cea135;
+    border-top: 10px solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.8);
+}
+
+.features-section>.features-columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section>.features-columns-wrapper>.features-columns {
+    width: 300px;
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section>.features-columns-wrapper>.features-columns:hover {
+    border-bottom: 5px solid #11122b;
+}
+
+.features-section>.features-columns-wrapper>.features-columns :nth-child(1) {
+    font-size: 3em;
+    width: 50px;
+}
+
+.features-section>.features-columns-wrapper>.features-columns :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+
+}
+
+.features-section>.features-columns-wrapper>.features-columns :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.features-section>.features-columns-wrapper>.features-columns :nth-child(3) {
+    letter-spacing: 2px;
+
+}
+
+/* Footer-styles might need to change */
+
+
+.footer>.banner-image-footer img {
+    width: 180px;
+    height: 100%;
+    opacity: 0.5;
+}
+
+
+
+.footer-contact-hours-wrapper span {
+
+    color: #cbcbcb;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-size: 1em;
+
+}
+
+.footer-contact-hours-wrapper>.hour {
+    color: #cea135;
+
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+
+}
+
+.footer>.link-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer>.social-media-icon-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer>.social-media-icon-wrapper>a {
+    color: #cbcbcb;
+    font-size: 1.5em;
+    transition: 0.5s;
+
+}
+
+.footer>.social-media-icon-wrapper>a:hover {
+    color: #cea135;
+}
+
+.footer>.copy-write {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
